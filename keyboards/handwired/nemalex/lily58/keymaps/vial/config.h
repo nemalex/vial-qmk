@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+#define VIAL_KEYBOARD_UID {0xA3, 0x1E, 0x72, 0xD4, 0x8B, 0x56, 0xF0, 0x19}
+
+#define VIAL_UNLOCK_COMBO_ROWS {4, 9}
+#define VIAL_UNLOCK_COMBO_COLS {4, 4}
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define VIAL_TAP_DANCE_ENTRIES 4
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+
+#define EE_HANDS
+
+#define USE_SERIAL_PD2
+
+#define TAPPING_FORCE_HOLD
+#define TAPPING_TERM 100
